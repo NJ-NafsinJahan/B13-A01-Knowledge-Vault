@@ -10,7 +10,7 @@
   font-optical-sizing: auto;
 }
 
-.logo:hover, .btn:hover, p:hover{
+.logo:hover, .btn:hover, p:hover, .banner-h1:hover{
     background-color: rgb(247, 175, 175);
 }
 
@@ -55,7 +55,7 @@ nav{
 
 .btn{
     background-color: #469165;
-    font-size: 16;
+    font-size: 16px;
     font-weight: 600;
     border: 4px;
     padding: 12px 16px;
@@ -63,5 +63,85 @@ nav{
     color: #FFFFFF;
     cursor: pointer;
 }
+
+#banner {
+    background: url(../images/hero-bg.png);  
+    padding: 115px 500px;
+    
+}
+
+.color-green{
+    color: #30B868;
+}
+
+#banner .banner-container{
+    /* border: 3px solid darkred; */
+    /* margin: 47px 38px 0px 230px; */
+    justify-content: space-around;
+    align-items: center;
+    
+
+    /* width: 71%; */
+    /* max-width: 1360px; */
+    text-align: center;
+}
+
+.banner-top{
+    /* border: 3px solid darkred; */
+    color: #30B868;
+    background: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* width: 300px; */
+    margin: 7px 150px 0px 230px;
+    /* margin: 14px 560px; */
+    margin-bottom: 16px;
+    padding: 8px;
+    border-radius: 50px; 
+    
+}
+.banner-container .banner-p{
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 16px;
+
+}
+
+.local-p{
+    /* background-color: #d0d1ed; */
+    font-size: 18px;
+    margin-bottom: 32px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF; 
+    box-sizing: border-box;
+    /* max-width: 1360px; */
+    /* text-align: center; */
+    /* width: 1360px; */
+    /* height: 60px; */
+}
+
+.banner-button{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.banner-button .banner-btn{
+    background-color: #46916500;
+    font-size: 16px;
+    font-weight: 600;
+    /* border: 10px; */
+    padding: 12px 16px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px; 
+    color: #FFFFFF;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
 
 
