@@ -143,5 +143,38 @@ nav{
     box-sizing: border-box;
 }
 
+#footer{
+    background-color: #001931;
+    padding: 120px 120px 60px 120px;
+}
+
+#footer .footer-container{
+    /* background-color: antiquewhite; */
+    display: flex;
+    color: rgba(250, 250, 250, 1);
+    justify-content: space-between;
+    width: 1360px;
+    max-width: 1360px;
+    height: 100px;
+    align-items: flex-start;
+    /* gap: 1050px; */    
+}
+
+.copy-right{
+    color: rgba(250, 250, 250, 1);
+    font-style: 400px;
+    font-size: 16px;
+    /* font-wei: 400; */
+    /* line-height: 24px; */
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+}
+hr{
+    height: .5px;
+    border:none ;
+    background-color: rgb(234, 234, 228);
+}
+
 
 
