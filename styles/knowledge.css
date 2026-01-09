@@ -21,9 +21,9 @@ header{
 
 
 
-body{
+/* body{
     background-color: aqua;
-}
+} */
 
 nav{
     max-width: 1600px;
@@ -66,7 +66,7 @@ nav{
 
 #banner {
     background: url(../images/hero-bg.png);  
-    padding: 115px 500px;
+    padding: 115px 300px;
     
 }
 
@@ -76,14 +76,10 @@ nav{
 
 #banner .banner-container{
     /* border: 3px solid darkred; */
-    /* margin: 47px 38px 0px 230px; */
     justify-content: space-around;
     align-items: center;
-    
-
-    /* width: 71%; */
-    /* max-width: 1360px; */
     text-align: center;
+
 }
 
 .banner-top{
@@ -95,19 +91,15 @@ nav{
     display: flex;
     justify-content: center;
     gap: 20px;
-    /* width: 300px; */
-    margin: 7px 150px 0px 230px;
-    /* margin: 14px 560px; */
     margin-bottom: 16px;
-    padding: 8px;
+    padding: 8px 200px;
     border-radius: 50px; 
     
 }
 .banner-container .banner-p{
-    font-size: 72px;
+    font-size: 60px;
     font-weight: bold;
     margin-bottom: 16px;
-
 }
 
 .local-p{
@@ -119,10 +111,6 @@ nav{
     text-align: center;
     color: #FFFFFF; 
     box-sizing: border-box;
-    /* max-width: 1360px; */
-    /* text-align: center; */
-    /* width: 1360px; */
-    /* height: 60px; */
 }
 
 .banner-button{
@@ -133,15 +121,77 @@ nav{
 .banner-button .banner-btn{
     background-color: #46916500;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 300;
     /* border: 10px; */
-    padding: 12px 16px;
+    /* padding: 12px 16px; */
     border: 1px solid rgba(255, 255, 255, 1);
     border-radius: 4px; 
     color: #FFFFFF;
     cursor: pointer;
     box-sizing: border-box;
 }
+
+#notes{
+    /* border: 1px solid red; */
+    padding-top: 130px;
+}
+
+.notes-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.notes-header{
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.notes-p-bold{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.notes-p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 44px;
+}
+
+.notes-box{
+    display: flex;
+    gap: 24px;
+}
+
+.notes-card{
+    padding: 30px;
+    /* border: 1px solid red; */
+    /* max-width: 267px; */
+    
+    box-shadow: 0 6px 50px 0 #00000033;
+}
+
+.notes-card img{
+    padding: 40px 60px 16px 60px; 
+}
+
+.notes-card h3{
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.notes-card p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
 #brain{
     background-color: #F7F6F2;
     padding: 80px 40px; 
