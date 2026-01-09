@@ -3,14 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.notes-card:hover, .brain-img:hover, .text-list:hover, h1:hover, .footer-img:hover, .copy-right:hover, p:hover {
+    background-color: rgba(250, 226, 226, 0.672);
+}
 
 .font-inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
 
-.logo:hover, .btn:hover, p:hover, .banner-h1:hover, .banner-top:hover {
+.logo:hover, .btn:hover, p:hover, .banner-h1:hover, .banner-top:hover, .banner-btn:hover {
     background-color: rgba(250, 226, 226, 0.672);
 }
 
@@ -96,6 +98,9 @@ nav{
     margin-bottom: 16px;
     padding: 1px 5px;
     border-radius: 50px; 
+    width: 229px;
+    margin: 0 auto;
+    /* height: 35px; */
     
 }
 /* .banner-tp{
@@ -110,6 +115,7 @@ nav{
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 16px;
+    margin-top: 16px;
 }
 
 .local-p{
