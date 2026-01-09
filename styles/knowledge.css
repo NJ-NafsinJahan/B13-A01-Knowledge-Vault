@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .notes-card:hover, .brain-img:hover, .text-list:hover, h1:hover, .footer-img:hover, .copy-right:hover, p:hover {
-    background-color: rgba(250, 226, 226, 0.672);
+    background-color: rgba(250, 226, 226, 0.793);
 }
 
 .font-inter{
@@ -13,7 +13,7 @@
 }
 
 .logo:hover, .btn:hover, p:hover, .banner-h1:hover, .banner-top:hover, .banner-btn:hover {
-    background-color: rgba(250, 226, 226, 0.672);
+    background-color: rgba(250, 226, 226, 0.76);
 }
 
 header{
