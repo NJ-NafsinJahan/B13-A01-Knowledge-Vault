@@ -142,6 +142,30 @@ nav{
     cursor: pointer;
     box-sizing: border-box;
 }
+#access{
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.access-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #ede7eba8;
+    text-align: center;
+    padding: 131px 157px;
+    border-radius: 5px; 
+}
+
+.access-container p{
+    color: #627382;
+    margin-top: 24px;
+}
+
+.access-container h1{
+    color: #001931;
+}
 
 #footer{
     background-color: #001931;
@@ -173,7 +197,7 @@ nav{
 hr{
     height: .5px;
     border:none ;
-    background-color: rgb(234, 234, 228);
+    background-color: rgb(244, 244, 235);
 }
 
 
