@@ -149,14 +149,14 @@ nav{
 }
 
 .brain-container{
-    border: 3px solid darkred;
+    /* border: 3px solid darkred; */
     display: flex; 
     justify-content: space-between;
 }
 
 .brain-text{
-    border: 3px solid darkred;
-    padding: 102px 102px 120px 20px;
+    /* border: 3px solid darkred; */
+    padding: 102px 102px 120px 70px;
 
 }
 .text-p1{
